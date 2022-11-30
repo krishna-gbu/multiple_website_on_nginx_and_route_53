@@ -24,4 +24,13 @@
 ![image](https://user-images.githubusercontent.com/40553867/204723142-d4a8d7c1-9f93-4683-9c40-864e652211cd.png)
 
 ![image](https://user-images.githubusercontent.com/40553867/204723302-8efa1f36-8508-48ab-9019-3ac25dc3835d.png)
- hit enter 
+ hit enter :pencil2:
+ 
+![image](https://user-images.githubusercontent.com/40553867/204724911-98e09766-8609-4e45-a9cb-afea2450666b.png)
+
+## install nodejs for reactjs
+```
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
+```
+
