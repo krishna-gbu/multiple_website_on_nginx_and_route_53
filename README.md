@@ -33,4 +33,34 @@
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\
 sudo apt-get install -y nodejs
 ```
+doc https://github.com/nodesource/distributions/blob/master/README.md
+![image](https://user-images.githubusercontent.com/40553867/204736471-f404c9dc-9397-41b5-8e4c-e559047deed5.png)
+
+## install nginx 
+#### https://www.nginx.com/resources/wiki/start/topics/tutorials/install/
+
+```
+sudo apt install nginx -y
+```
+![image](https://user-images.githubusercontent.com/40553867/204738377-d3765dc2-3056-4fe9-9272-f5f7350f43dd.png)
+![image](https://user-images.githubusercontent.com/40553867/204739523-88a7e84f-3d7c-455f-92d0-494e898122d1.png)
+
+## in krishaa.ml website location
+![image](https://user-images.githubusercontent.com/40553867/204739460-31054366-21e8-4057-bb12-e6ea441ebbc3.png)
+## git clone first website
+![image](https://user-images.githubusercontent.com/40553867/204739838-e910007e-6cc7-4381-845e-047779a18161.png)
+
+![image](https://user-images.githubusercontent.com/40553867/204740007-1f0cd8b2-c8c8-4580-bfbe-cec1e1d0905b.png)
+
+```
+npm i
+npm run build
+```
+![image](https://user-images.githubusercontent.com/40553867/204740909-ee862005-d316-42f5-8077-efe23d2dbd18.png)
+
+## copy build file to /var/www/html/krishnn.ml/
+
+
+
+
 
