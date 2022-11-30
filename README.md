@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+### launch ec2 instance 
+### install nginx
+### host multi website
+### two domain name
+### link domain name to instance
+### setup route 53 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## launch ec2 instance 
+![image](https://user-images.githubusercontent.com/40553867/204722661-bfd5d1b6-7807-4bed-93bd-962380c1d526.png)
 
-## Available Scripts
+### create instance key
+![image](https://user-images.githubusercontent.com/40553867/204722827-1d81f776-edc2-4099-a85a-9172a083d029.png)
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/40553867/204722925-8c9d415b-f1cb-4d3d-b28d-bfa7c2de84dc.png)
 
-### `npm start`
+![image](https://user-images.githubusercontent.com/40553867/204722965-394ba022-6998-4a74-8176-55436558e33d.png)
+![image](https://user-images.githubusercontent.com/40553867/204722989-03ecbe70-a20c-4379-a0d9-1d05dc3407fd.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### launch instance 
+![image](https://user-images.githubusercontent.com/40553867/204723056-88a5e887-ef40-487a-9a35-5d2460fffaa0.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### now connect ec2 instance with ssh 
 
-### `npm test`
+![image](https://user-images.githubusercontent.com/40553867/204723142-d4a8d7c1-9f93-4683-9c40-864e652211cd.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/40553867/204723302-8efa1f36-8508-48ab-9019-3ac25dc3835d.png)
+ hit enter :pencil2:
+ 
+![image](https://user-images.githubusercontent.com/40553867/204724911-98e09766-8609-4e45-a9cb-afea2450666b.png)
 
-### `npm run build`
+## install nodejs for reactjs
+```
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
+```
+doc https://github.com/nodesource/distributions/blob/master/README.md
+![image](https://user-images.githubusercontent.com/40553867/204736471-f404c9dc-9397-41b5-8e4c-e559047deed5.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## install nginx 
+#### https://www.nginx.com/resources/wiki/start/topics/tutorials/install/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+sudo apt install nginx -y
+```
+![image](https://user-images.githubusercontent.com/40553867/204738377-d3765dc2-3056-4fe9-9272-f5f7350f43dd.png)
+![image](https://user-images.githubusercontent.com/40553867/204739523-88a7e84f-3d7c-455f-92d0-494e898122d1.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## in krishaa.ml website location
+![image](https://user-images.githubusercontent.com/40553867/204739460-31054366-21e8-4057-bb12-e6ea441ebbc3.png)
+## git clone first website
+![image](https://user-images.githubusercontent.com/40553867/204739838-e910007e-6cc7-4381-845e-047779a18161.png)
 
-### `npm run eject`
+![image](https://user-images.githubusercontent.com/40553867/204740007-1f0cd8b2-c8c8-4580-bfbe-cec1e1d0905b.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm i
+npm run build
+```
+![image](https://user-images.githubusercontent.com/40553867/204740909-ee862005-d316-42f5-8077-efe23d2dbd18.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## copy build file to /var/www/html/krishnn.ml/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
