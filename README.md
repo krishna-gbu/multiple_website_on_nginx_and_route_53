@@ -85,4 +85,6 @@ sudo apt install certbot python3-certbot-nginx -y
 ```
 sudo certbot --nginx -d krishna69.kt -d www.krishna69.kt
 ```
-
+```
+sudo certbot --nginx -d krishaa.ml -d www.krishaa.ml
+```
