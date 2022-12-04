@@ -98,5 +98,7 @@ sudo certbot --nginx -d krishaa.ml -d www.krishaa.ml
 
 ![image](https://user-images.githubusercontent.com/40553867/205502451-6405d00a-dab6-4133-95f6-c14f81183a38.png)
 
+![image](https://user-images.githubusercontent.com/40553867/205502553-329097d4-ba30-4dd9-a7cf-fc9cf7b59317.png)
+
 ### route 53 setup in previous project
 https://github.com/krishna-gbu/add_ssl_in_website_nginx_and_route_53
