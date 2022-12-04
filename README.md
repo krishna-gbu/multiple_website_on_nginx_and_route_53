@@ -66,6 +66,12 @@ npm run build
 
 ![image](https://user-images.githubusercontent.com/40553867/205471703-7134f34f-70a3-49fb-8dba-2a59ea99b1d3.png)
 
+#### copy build to /var/www/krishaa.ml/html/
 
+![image](https://user-images.githubusercontent.com/40553867/205472363-47de3adc-c566-432c-b41c-b585e9f5a3b0.png)
 
+#### remove default and change location of root 
+![image](https://user-images.githubusercontent.com/40553867/205472408-7b553f43-216c-4f4e-89c8-1501510d48ca.png)
+
+![image](https://user-images.githubusercontent.com/40553867/205472448-614d4280-1eaa-4e37-93e2-aa7051484097.png)
 
