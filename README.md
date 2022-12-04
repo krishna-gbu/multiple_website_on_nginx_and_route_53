@@ -58,8 +58,13 @@ npm run build
 ```
 ![image](https://user-images.githubusercontent.com/40553867/204740909-ee862005-d316-42f5-8077-efe23d2dbd18.png)
 
-## copy build file to /var/www/html/krishnn.ml/
+#### copy build file to /var/www/krishna69.tk/html/
+### remove default keyward and change location of our site 
+![image](https://user-images.githubusercontent.com/40553867/205471884-512fde66-0cf5-402d-bcbf-c9dabe088318.png)
 
+![image](https://user-images.githubusercontent.com/40553867/205471694-32a91efc-a09a-4c7f-9d95-340025073512.png)
+
+![image](https://user-images.githubusercontent.com/40553867/205471703-7134f34f-70a3-49fb-8dba-2a59ea99b1d3.png)
 
 
 
