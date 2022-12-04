@@ -75,3 +75,14 @@ npm run build
 
 ![image](https://user-images.githubusercontent.com/40553867/205472448-614d4280-1eaa-4e37-93e2-aa7051484097.png)
 
+## ssl
+#### https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/
+
+```
+sudo apt install certbot python3-certbot-nginx -y
+```
+
+```
+sudo certbot --nginx -d krishna69.kt -d www.krishna69.kt
+```
+
