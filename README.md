@@ -85,9 +85,18 @@ sudo apt install certbot python3-certbot-nginx -y
 ```
 sudo certbot --nginx -d krishna69.kt -d www.krishna69.kt
 ```
+![image](https://user-images.githubusercontent.com/40553867/205502320-912bdff8-bb78-4cd9-8862-20b80e70fe31.png)
+
+![image](https://user-images.githubusercontent.com/40553867/205502338-40dfaece-86d8-4ed2-9328-2a57dab36c9a.png)
+
 ```
 sudo certbot --nginx -d krishaa.ml -d www.krishaa.ml
 ```
+#### if error this type means our dns not configure with instance ip
+![image](https://user-images.githubusercontent.com/40553867/205502411-4ae261d5-2f55-406d-b85a-cad971cd5200.png)
+![image](https://user-images.githubusercontent.com/40553867/205502483-fab80cbd-ec1c-4fcb-9c34-a52b2f827ed3.png)
+
+![image](https://user-images.githubusercontent.com/40553867/205502451-6405d00a-dab6-4133-95f6-c14f81183a38.png)
 
 ### route 53 setup in previous project
 https://github.com/krishna-gbu/add_ssl_in_website_nginx_and_route_53
